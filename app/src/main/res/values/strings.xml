@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Ahmed</string>
     <string name="s22010020">S22010020</string>
+    <string name="my_api_key">AIzaSyBPHNghT2-5mEVXXdL7cuOBV1aAp8OTbz0</string>
+    <string name="show_location">Show location</string>
+    <string name="type_address_here">Type address here</string>
 </resources>
