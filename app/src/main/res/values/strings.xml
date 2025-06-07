@@ -4,4 +4,6 @@
     <string name="my_api_key">AIzaSyBPHNghT2-5mEVXXdL7cuOBV1aAp8OTbz0</string>
     <string name="show_location">Show location</string>
     <string name="type_address_here">Type address here</string>
+    <string name="threshold_20">Threshold: 20</string>
+    <string name="waiting_for_temperature">Waiting for temperature...</string>
 </resources>

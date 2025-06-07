@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lab_04">
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".lab_04" >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="282dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:fontFamily="@font/anton"
+        android:text="@string/waiting_for_temperature"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/thresholdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/threshold_20"
+        android:textSize="18sp" />
+</LinearLayout>
